@@ -1,0 +1,213 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+/*VARIÁVEIS GLOBAIS*/
+:root {
+    --fonte-inter: "Inter", sans-serif;
+    --preto: #00030C;
+    --azul-claro: #167BF7;
+    --azul: #2B58DE;
+    --branco: #FFFFFF;
+    --cinzinha: #C0C0C0;
+}
+
+/*CONFIGURAÇÃO DO SITE*/
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: "Inter", sans-serif;
+}
+
+.apresentacao {
+    background-image: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-position: top, right;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 280px;
+}
+
+.apresentacao__promocao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% 0%;
+}
+
+.apresentacao__promocao__titulo {
+    width: 82%;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.apresentacao__promocao__imagem {
+    width: 48%;
+    padding-bottom: 54px;
+}
+
+.apresentacao__promocao__opcao1 {
+    text-decoration: none;
+    background-color: var(--azul-claro);
+    padding: 16px 24.5%;
+    border-radius: 8px;
+    color: var(--branco);
+    margin-bottom: 2%;
+}
+
+.apresentacao__promocao__opcao1:hover {
+    background-color: var(--azul);
+    padding: 16px 26%;
+}
+
+.apresentacao__promocao__opcao2 {
+    text-decoration: none;
+    padding: 15px 26.5%;
+    border: 1px solid var(--branco);
+    border-radius: 8px;
+    color: var(--branco);
+    text-align: center;
+    margin-bottom: 1.25%;
+}
+
+.apresentacao__promocao__opcao2:hover {
+    background-color: var(--cinzinha);
+    color: var(--preto);
+    padding: 15px 28%;
+}
+
+.apresentacao__promocao__texto {
+    color: var(--cinzinha);
+    font-size: 0.75rem;
+}
+
+.apresentacao__plataformas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.texto-plataformas {
+    width: 40%;
+}
+
+.apresentacao__plataformas__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.apresentacao__plataformas__texto {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.apresentacao__combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.combo-texto {
+    width: 36%;
+}
+
+.apresentacao__combo__texto {
+    padding-bottom: 10%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.apresentacao__combo__link {
+    background-color: var(--azul-claro);
+    padding: 16px; 
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.apresentacao__combo__link:hover {
+    background-color: var(--azul);
+}
+
+.apresentacao__baixe_cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5%;
+}
+
+.baixe_cursos-texto {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.apresentacao__baixe_cursos__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.apresentacao__dispositivos__titulo {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dispositivos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 140px;
+}
+
+.tv, .celular, .pc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__logo {
+    margin-bottom: 40px;
+}
+
+.rodape-conteudo {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.rodape__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--cinzinha);
+    margin-bottom: 30px;
+}
