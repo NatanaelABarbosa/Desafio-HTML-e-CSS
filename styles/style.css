@@ -203,6 +203,15 @@ body {
     margin-bottom: 24px;
 }
 
+.rodape__links__opcao {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.rodape__links__opcao:hover {
+    color: var(--azul-claro);
+}
+
 .rodape__info {
     text-align: center;
     display: flex;
