@@ -52,13 +52,13 @@ body {
 
 .apresentacao__promocao__imagem {
     width: 48%;
-    padding-bottom: 54px;
+    padding-bottom: 3.375rem;
 }
 
 .apresentacao__promocao__opcao1 {
     text-decoration: none;
     background-color: var(--azul-claro);
-    padding: 16px 24.5%;
+    padding: 1rem 24.5%;
     border-radius: 8px;
     color: var(--branco);
     margin-bottom: 2%;
@@ -66,12 +66,12 @@ body {
 
 .apresentacao__promocao__opcao1:hover {
     background-color: var(--azul);
-    padding: 16px 26%;
+    padding: 1rem 26%;
 }
 
 .apresentacao__promocao__opcao2 {
     text-decoration: none;
-    padding: 15px 26.5%;
+    padding: 1rem 26.5%;
     border: 1px solid var(--branco);
     border-radius: 8px;
     color: var(--branco);
@@ -82,7 +82,7 @@ body {
 .apresentacao__promocao__opcao2:hover {
     background-color: var(--cinzinha);
     color: var(--preto);
-    padding: 15px 28%;
+    padding: 1rem 28%;
 }
 
 .apresentacao__promocao__texto {
@@ -132,7 +132,7 @@ body {
 
 .apresentacao__combo__link {
     background-color: var(--azul-claro);
-    padding: 16px; 
+    padding: 1rem; 
     border-radius: 8px;
     text-decoration: none;
     color: var(--branco);
@@ -154,7 +154,7 @@ body {
     width: 35%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .apresentacao__baixe_cursos__titulo {
@@ -167,22 +167,22 @@ body {
 }
 
 .apresentacao__dispositivos__titulo {
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .dispositivos {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 140px;
+    margin-bottom: 8.75rem;
 }
 
 .tv, .celular, .pc {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -194,11 +194,11 @@ body {
 }
 
 .rodape__logo {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .rodape-conteudo {
-    width: 1200px;
+    width: 75rem;
     display: flex;
     flex-direction: column;
     
@@ -207,7 +207,7 @@ body {
 .rodape__links {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 24px;
+    margin-bottom: 2.5rem;
 }
 
 .rodape__links__opcao {
@@ -223,7 +223,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2.5rem;
     color: var(--cinzinha);
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
