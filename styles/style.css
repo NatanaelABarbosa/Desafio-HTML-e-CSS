@@ -163,7 +163,8 @@ body {
 }
 
 .apresentacao__dispositivos {
-    height: 100vh;
+    height: 80vh;
+    margin-top: 250px;
 }
 
 .apresentacao__dispositivos__titulo {
